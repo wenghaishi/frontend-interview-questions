@@ -1,0 +1,49 @@
+.item {
+  box-shadow: 1px 1px 1px 1px;
+  width:80%;
+  height:4rem;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.input {
+  width:88%;
+  height: 80%;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  outline:none;
+}
+
+.number{
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+
+.suggestion {
+  position:absolute;
+  font-size: 20px;
+  padding:4px;
+  margin-top: 4rem;
+  flex-direction: column;
+  color:black;
+  list-style-type: none;
+  width: 50%;
+  z-index: 5;
+  width: 99%;
+  background-color: bisque;
+  top:0;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
